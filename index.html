@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Sutar | Professional Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Silent Background Wrapper -->
+    <div class="background-wrapper" id="bg-wrapper">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Sumit <span>Sutar</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="profile-container reveal">
+            <img src="Sumit.jpeg" alt="Akash Sutar" class="profile-img">
+        </div>
+        <div class="hero-text reveal">
+            <h1>Hello, I'm Sumit Sutar</h1>
+            <h2>I am a <span id="typing-text"></span><span class="typewriter-cursor"></span></h2>
+            <a href="#contact" class="btn">Connect With Me</a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+            <!-- MCA -->
+            <div class="timeline-item left reveal">
+                <div class="content-box">
+                    <h3>Batchlers of Commerse</h3>
+                    <div class="year">CLE Degree College Chikkodi</div>
+                    <p>Specialized in Account Handling .</p>
+                </div>
+            </div>
+            <!-- BCS -->
+            <div class="timeline-item right reveal">
+                <div class="content-box">
+                    <h3>12th</h3>
+                    <div class="year">Jolle Education Society ,Examba</div>
+                    <p>Focused on Creer of Banking Industries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title reveal">Technical Skills</h2>
+        <div class="skills-wrapper reveal">
+           
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Account</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="95%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Bussiness</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="85%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Tally</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Economic</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Typing English/Hindi</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80%"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2 class="section-title reveal">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card reveal">
+                <i class=""></i>
+                <h3>10th Marksheet our Base of Creer.</h3>
+                <p>SSLC</p>
+                <a href="10thmarkesheet.jpeg" target="_blank" class="btn">View Certificate</a>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-container reveal">
+        <div class="contact-info">
+                <p style="color: var(--text-muted);">I am currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sumitksutar2007@gmail.com">sumitksutar2007@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/sumit-sutar-0692053b2" target="_blank">LinkedIn Profile</a>
+                </div>
+                
+            </div>
+
+            <form id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast"><i class="fas fa-check-circle"></i> Message sent successfully!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
